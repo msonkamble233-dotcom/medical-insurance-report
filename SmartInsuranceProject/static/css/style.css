@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    font-family:Segoe UI;
+    background:#0a0f1c;
+    color:white;
+}
+
+/* CARD STYLE */
+.card{
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:16px;
+    color:white;
+}
+
+/* TABLE */
+table{
+    color:white !important;
+}
+
+/* BUTTON */
+.btn{
+    border-radius:10px !important;
+}
+
+/* HOVER EFFECT */
+.card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
